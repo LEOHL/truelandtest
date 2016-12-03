@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+</head>
+<style>
+    .top_fie{
+            position: absolute;
+            margin-top:30px;
+            left:calc(50% - 150px);
+            width:300px;
+            height:80px;
+            transform: rotate(180deg);
+            border:2px solid black;
+            display: inline-block;
+            border-radius:8px;
+        }
+        .fix_leg{
+            font-size:36px;
+            vertical-align: bottom;
+            transform: rotate(180deg);
+            border-bottom: none;
+            display: inline-block;
+            width:220px;
+            padding-left:20px;
+            padding-right:20px;
+        }
+        .pic{
+            padding:0px;
+            width:32%;
+            float:left;
+        }
+        .pic img{
+            width:80%;
+        }
+        .link{
+            margin-left: 5%;
+            height:20px;
+        }
+        #en_href{
+            float: left;
+            color:black;
+            padding-right:20px;
+            padding-left:20px;
+            border-right: 1px solid #ccc;
+            text-decoration: none;
+        }
+</style>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><span style="color:red">T</span>rueland</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">产品简介</a></li>
+            <li><a href="#">作品展示</a></li>
+            <li><a href="#">新闻资讯</a></li>
+            <li><a href="#">成功案例</a></li>
+            <li><a href="#">营销服务</a></li>
+            <li><a href="#">联系我们</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">客户服务热线：021-31265245</a></li>
+    </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div id="myCarousel" class="carousel slide" style="margin-top:50px;">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0"
+            class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="item active">
+            <a href="#"><img src="img/slide1.png" alt="第一张"></a>
+        </div>
+        <div class="item">
+            <a href="#"><img src="img/slide2.png" alt="第二张"></a>
+        </div>
+        <div class="item">
+            <a href="#"><img src="img/slide3.jpg" alt="第三张"></a>
+        </div>
+    </div>
+<!--左右控制-->
+<a href="#myCarousel" data-slide="prev" class="carousel-control
+left"><span class="glyphicon glyphicon-chevron-left"></span></a>
+<a href="#myCarousel" data-slide="next" class="carousel-control
+right"><span class="glyphicon glyphicon-chevron-right"></span></a>
+</div>
+<div style="width:300px;height:80px;margin-top:50px">
+    <fieldset class="top_fie">
+        <legend align="center" class="fix_leg">产品展示</legend>
+    </fieldset>
+</div>
+<div style="text-align:center;margin-top:40px;">
+    <p style="font-size:2em;font-weight:bold">ON DISPLAY</p>
+    <hr style="width:180px;margin-top:10px;margin-bottom:10px;border:1px solid #545454;">
+    <p style="font-size:1.2em">SHANGHAI TRUELAND</p>
+</div>
+<div class="row" style="text-align:center;margin-top:60px;margin-left:4%;width:95%;">
+    <div class="pic col-sm-4">
+        <img src="img/1.jpg" alt="">
+    </div>
+    <div class="pic col-sm-4">
+        <img src="img/2.jpg" alt="">
+    </div>
+    <div class="pic col-sm-4">
+        <img src="img/3.jpg" alt="">
+    </div>
+    <p class="col-xs-offset-2 col-xs-8" style="font-family: 'Microsoft YaHei UI';font-size: 16px;margin-top:30px;">
+        珍岛以设计研发、采购管理与市场终端服务体系作为三大地基工程，
+        以营销策略、物料销售为主营业务，带动整合营销传播，
+        体验营销设计和市场终端执行等全方位专业服务
+    </p>
+    <button class="btn btn-warning btn-md col-xs-2 col-xs-offset-5" style="margin-top:20px;border-radius:0px;">
+    查看更多<span>&raquo;<span>
+    </button>
+</div>
+<div style="width:300px;height:80px;margin-top:80px">
+    <fieldset class="top_fie">
+        <legend align="center" class="fix_leg">品牌简介</legend>
+    </fieldset>
+</div>
+<div style="text-align:center;margin-top:40px;">
+    <p style="font-size:2em;font-weight:bold">BRAND INTRODUCTION</p>
+    <hr style="width:320px;margin-top:10px;margin-bottom:10px;border:1px solid #545454;">
+    <p style="font-size:1.2em">SHANGHAI TRUELAND</p>
+</div>
+<div class="jumbotron">
+    <div class="row" style="width:80%;height:500px;">
+        <div class="col-sm-3" style="background:#FF6A6A;height:500px;left:150px;padding:0;">
+            <img src="img/4.jpg" style="position:absolute;z-index:100;width:320px;top:90px;left:30px;"></div>
+        <div class="col-sm-9" style="background:white;height:500px;left:150px;padding:0;">
+            <div style="position:absolute;left:30%;">
+            <h2>COMPANY PROFILE</h2>
+            <hr>
+            <p>珍岛成立于2005年，秉承"整合数字资源,技术驱动营销"的理念，
+            专注于数字营销技术、产品、资源、服务的创新与整合，
+            为传统企业互联网商业转型各个阶段提供全方位应用支撑。
+            经过10余年的快速发展，珍岛深刻理解未来数字营销内容与技术的融合之势，
+            积极引进互联网技术、营销策略及内容创意专家，先后从IBM、微软、华为等IT企业引进大量人才，
+            目前公司逾千人规模，上海作为总部，同步辐射北京、深圳、香港、江浙、成都、内蒙等全国10余家分/子公司。
+            </p>
+            <button class="btn btn-warning btn-md" style="margin-top:20px;border-radius:0px;">
+                        查看更多<span>&raquo;<span>
+            </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div style="width:300px;height:80px;margin-top:100px">
+    <fieldset class="top_fie">
+        <legend align="center" class="fix_leg">新闻资讯</legend>
+    </fieldset>
+</div>
+
+<div class="display" style="text-align:center;margin-top:50px;margin-bottom: 40px;">
+    <p style="font-size:28px;font-weight: bold;margin:0px;">NEWS INFORMATION</p>
+    <hr style="width:320px;margin-top:10px;margin-bottom:10px;border-color:black">
+    <p style="font-size:20px;margin:0px;">SHANGHAI DRUELAN</p>
+</div>
+
+<div class="container">
+    <div class="row footer">
+            <div class="col-md-3 col-sm-12 col-xs-12">
+                <img style="width:100%" src="img/a4.jpg" alt="">
+            </div>
+            <div class="col-md-3 col-sm-12 col-xs-12">
+                <h5>基于账号的策略营销为何</h5>
+                <hr id="hr">
+                <p>我们可以发现，目前社交媒体基本都顺应趋势设立了针对电商的模块，
+                    比如微信除了可利用公众号开放接口进行开发</p>
+            </div>
+            <div class="col-md-3  col-sm-12 col-xs-12">
+                <img style="width:100%" src="img/a3.jpg" alt="">
+            </div>
+            <div class="col-md-3  col-sm-12 col-xs-12">
+                <h5>基于账号的策略营销为何</h5>
+                <hr id="hr">
+                <p>经过10余年的快速发展，珍岛深刻理解未来数字营销内容与技术的融合之势，
+                    积极引进互联网技术、营销策略及内容创意专家</p>
+            </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row footer">
+        <div class="col-md-3 col-sm-12 col-xs-12">
+            <h5>基于账号的策略营销为何</h5>
+            <hr id="hr">
+            <p>我们可以发现，目前社交媒体基本都顺应趋势设立了针对电商的模块，
+                比如微信除了可利用公众号开放接口进行开发</p>
+        </div>
+        <div class="col-md-3 col-sm-12 col-xs-12">
+            <img style="width:100%" src="img/a2.jpg" alt="">
+        </div>
+        <div class="col-md-3  col-sm-12 col-xs-12">
+            <h5>基于账号的策略营销为何</h5>
+            <hr id="hr">
+            <p>经过10余年的快速发展，珍岛深刻理解未来数字营销内容与技术的融合之势，
+                积极引进互联网技术、营销策略及内容创意专家</p>
+        </div>
+        <div class="col-md-3  col-sm-12 col-xs-12">
+            <img style="width:100%" src="img/a1.jpg" alt="">
+        </div>
+    </div>
+    <button class="btn btn-warning btn-md col-xs-offset-5 col-xs-2" style="margin-top:40px;border-radius:0px;">
+        查看更多
+            <span>&raquo;<span>
+    </button>
+</div>
+<hr style="border:1px solid #ccc;width: 90%">
+<div class="link">
+    <a id="en_href" href="#">友情链接</a>
+    <a id="en_href" href="#">baidu</a>
+    <a id="en_href" href="#">sougou</a>
+    <a id="en_href" href="#">zhendao</a>
+</div>
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script>
+    $(function () {
+        $('#myCarousel').carousel({
+            interval : 2000,
+        });
+</script>
+</body>
+</html>
