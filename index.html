@@ -47,6 +47,18 @@
             border-right: 1px solid #ccc;
             text-decoration: none;
         }
+        .picture>img{
+            box-shadow:-25px -40px 0px #f39d79,
+            -25px 40px 0px #f39d79;
+        }
+        .txt>h2{
+            font-family:"Agency FB";
+            text-shadow: 2px 2px 1px red;
+        }
+        .txt>p{
+            font-family: "Microsoft YaHei UI";
+            font-size: 16px;;
+        }
 </style>
 <body>
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -142,24 +154,28 @@ right"><span class="glyphicon glyphicon-chevron-right"></span></a>
     <hr style="width:320px;margin-top:10px;margin-bottom:10px;border:1px solid #545454;">
     <p style="font-size:1.2em">SHANGHAI TRUELAND</p>
 </div>
-<div class="jumbotron">
-    <div class="row" style="width:80%;height:500px;">
-        <div class="col-sm-3" style="background:#FF6A6A;height:500px;left:150px;padding:0;">
-            <img src="img/4.jpg" style="position:absolute;z-index:100;width:320px;top:90px;left:30px;"></div>
-        <div class="col-sm-9" style="background:white;height:500px;left:150px;padding:0;">
-            <div style="position:absolute;left:30%;">
-            <h2>COMPANY PROFILE</h2>
-            <hr>
-            <p>珍岛成立于2005年，秉承"整合数字资源,技术驱动营销"的理念，
-            专注于数字营销技术、产品、资源、服务的创新与整合，
-            为传统企业互联网商业转型各个阶段提供全方位应用支撑。
-            经过10余年的快速发展，珍岛深刻理解未来数字营销内容与技术的融合之势，
-            积极引进互联网技术、营销策略及内容创意专家，先后从IBM、微软、华为等IT企业引进大量人才，
-            目前公司逾千人规模，上海作为总部，同步辐射北京、深圳、香港、江浙、成都、内蒙等全国10余家分/子公司。
-            </p>
-            <button class="btn btn-warning btn-md" style="margin-top:20px;border-radius:0px;">
+<div class="jumbotron" style="margin-top:50px;">
+    <div class="container">
+        <div class="jumbotron" style="background-color: white">
+            <div class="container">
+                <div class="picture col-md-5">
+                    <img src="img/4.jpg" alt="">
+                </div>
+                <div class="txt col-md-offset-3 col-md-4">
+                    <h2>COMPANY PROFILE</h2>
+                    <hr>
+                    <p>珍岛成立于2005年，秉承"整合数字资源,技术驱动营销"的理念，
+                        专注于数字营销技术、产品、资源、服务的创新与整合，
+                        为传统企业互联网商业转型各个阶段提供全方位应用支撑。
+                        经过10余年的快速发展，珍岛深刻理解未来数字营销内容与技术的融合之势，
+                        积极引进互联网技术、营销策略及内容创意专家，先后从IBM、微软、华为等IT企业引进大量人才，
+                        目前公司逾千人规模，上海作为总部，同步辐射北京、深圳、香港、江浙、成都、内蒙等全国10余家分/子公司，
+                        目前已服务企业数量达上万家。
+                    </p>
+                    <button class="btn btn-warning btn-md" style="margin-top:20px;border-radius:0px;">
                         查看更多<span>&raquo;<span>
-            </button>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
